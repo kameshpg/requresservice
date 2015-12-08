@@ -1,0 +1,734 @@
+Apache Maven 3.0.5 (r01de14724cdef164cd33c7c8c2fe155faf9602da; 2013-02-19 13:51:28+0000)
+Maven home: c:\Tools\apache-maven-3.0.5-bin\apache-maven-3.0.5
+Java version: 1.7.0_75, vendor: Oracle Corporation
+Java home: c:\Program Files\Java\jdk1.7.0_75\jre
+Default locale: en_IE, platform encoding: Cp1252
+OS name: "windows 7", version: "6.1", arch: "amd64", family: "windows"
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective settings
+[WARNING] expected START_TAG or END_TAG not TEXT (position: TEXT seen ...   <mirror>\r\n      This sends everything else to /public\r\n      <i... @17:9)  @ C:\Users\ekampar\.m2\settings.xml, line 17, column 9
+[WARNING] 
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] requestresponse-rest-service
+[INFO] requestresponse-rest-service-jar
+[INFO] requestresponse-rest-service-war
+[INFO] requestresponse-rest-service-integration
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building requestresponse-rest-service 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ requestresponse-rest-service ---
+[INFO] Installing c:\Users\ekampar\requresservice\requestresponse-rest-service\pom.xml to C:\Users\ekampar\.m2\repository\com\maximus\black\lab\presentation\server\requestresponse-rest-service\1.0.1-SNAPSHOT\requestresponse-rest-service-1.0.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building requestresponse-rest-service-jar 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ requestresponse-rest-service-jar ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ requestresponse-rest-service-jar ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ requestresponse-rest-service-jar ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ requestresponse-rest-service-jar ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ requestresponse-rest-service-jar ---
+[INFO] Surefire report directory: C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-jar\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.2:jar (default-jar) @ requestresponse-rest-service-jar ---
+[INFO] Building jar: C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-jar\target\requestresponse-rest-service-jar-1.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ requestresponse-rest-service-jar ---
+[INFO] Installing C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-jar\target\requestresponse-rest-service-jar-1.0.1-SNAPSHOT.jar to C:\Users\ekampar\.m2\repository\com\maximus\black\lab\presentation\server\requestresponse-rest-service-jar\1.0.1-SNAPSHOT\requestresponse-rest-service-jar-1.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-jar\pom.xml to C:\Users\ekampar\.m2\repository\com\maximus\black\lab\presentation\server\requestresponse-rest-service-jar\1.0.1-SNAPSHOT\requestresponse-rest-service-jar-1.0.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building requestresponse-rest-service-war 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ requestresponse-rest-service-war ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ requestresponse-rest-service-war ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-war\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ requestresponse-rest-service-war ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ requestresponse-rest-service-war ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ requestresponse-rest-service-war ---
+[INFO] Surefire report directory: C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-war\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-war-plugin:2.6:war (default-war) @ requestresponse-rest-service-war ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [requestresponse-rest-service-war] in [C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-war\target\requestresponse-rest-service-1.0.1-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-war\src\main\webapp]
+[INFO] Webapp assembled in [281 msecs]
+[INFO] Building war: C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-war\target\requestresponse-rest-service-war-1.0.1-SNAPSHOT.war
+[INFO] Packaging classes
+[INFO] Building jar: C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-war\target\requestresponse-rest-service-war-1.0.1-SNAPSHOT-classes.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ requestresponse-rest-service-war ---
+[INFO] Installing C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-war\target\requestresponse-rest-service-war-1.0.1-SNAPSHOT.war to C:\Users\ekampar\.m2\repository\com\maximus\black\lab\presentation\server\requestresponse-rest-service-war\1.0.1-SNAPSHOT\requestresponse-rest-service-war-1.0.1-SNAPSHOT.war
+[INFO] Installing C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-war\pom.xml to C:\Users\ekampar\.m2\repository\com\maximus\black\lab\presentation\server\requestresponse-rest-service-war\1.0.1-SNAPSHOT\requestresponse-rest-service-war-1.0.1-SNAPSHOT.pom
+[INFO] Installing C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-war\target\requestresponse-rest-service-war-1.0.1-SNAPSHOT-classes.jar to C:\Users\ekampar\.m2\repository\com\maximus\black\lab\presentation\server\requestresponse-rest-service-war\1.0.1-SNAPSHOT\requestresponse-rest-service-war-1.0.1-SNAPSHOT-classes.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building requestresponse-rest-service-integration 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (prepare) @ requestresponse-rest-service-integration ---
+[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+     [echo] prepare phase
+    [unzip] Expanding: C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\src\test\resources\jboss-as-dist-6.2.4.zip into C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ requestresponse-rest-service-integration ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ requestresponse-rest-service-integration ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ requestresponse-rest-service-integration ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-1) @ requestresponse-rest-service-integration ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ requestresponse-rest-service-integration ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ requestresponse-rest-service-integration ---
+[INFO] Surefire report directory: C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\surefire-reports
+[INFO] parallel='none', perCoreThreadCount=true, threadCount=1, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Listening for transport dt_socket at address: 8787
+19:25:51,369 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final-redhat-1
+19:25:52,394 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final
+19:25:52,631 INFO  [org.jboss.as] (MSC service thread 1-5) JBAS015899: JBoss EAP 6.2.4.GA (AS 7.3.4.Final-redhat-1) starting
+19:25:57,009 INFO  [org.xnio] (MSC service thread 1-2) XNIO Version 3.0.10.GA-redhat-1
+19:25:57,024 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+19:25:57,031 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.0.10.GA-redhat-1
+19:25:57,106 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 3.2.19.GA-redhat-1
+19:25:57,186 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 39) JBAS016300: Activating JacORB Subsystem
+19:25:57,191 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) JBAS010280: Activating Infinispan subsystem.
+19:25:57,214 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 55) JBAS013171: Activating Security Subsystem
+19:25:57,216 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 49) JBAS011800: Activating Naming Subsystem
+19:25:57,275 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) JBAS015537: Activating WebServices Extension
+19:25:57,275 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 34) JBAS016200: Activating ConfigAdmin Subsystem
+19:25:57,353 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013170: Current PicketBox version=4.0.19.SP8-redhat-1
+19:25:57,400 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 50) JBAS011906: Activating OSGi Subsystem
+19:25:57,369 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 59) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+19:25:57,525 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
+19:25:57,556 INFO  [org.jboss.jaxr] (MSC service thread 1-7) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+19:25:57,572 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) JBAS015400: Bound mail session [java:jboss/mail/Default]
+19:25:57,748 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-8) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.23.1.Final-redhat-1)
+19:25:59,027 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 32) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+19:25:59,310 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.2.4.Final-redhat-1
+19:25:59,541 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\jboss-eap-6.2.4\standalone\deployments
+19:25:59,956 INFO  [org.jboss.as.remoting] (MSC service thread 1-8) JBAS017100: Listening on 127.0.0.1:5758
+19:25:59,956 INFO  [org.jboss.as.remoting] (MSC service thread 1-5) JBAS017100: Listening on 127.0.0.1:11310
+19:26:00,003 INFO  [org.apache.coyote.http11] (MSC service thread 1-2) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/127.0.0.1:9391
+19:26:00,003 INFO  [org.apache.coyote.http11] (MSC service thread 1-2) JBWEB003000: Coyote HTTP/1.1 starting on: http-/127.0.0.1:9391
+19:26:00,378 WARN  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011600: AIO wasn't located on this platform, it will fall back to using pure Java NIO. If your platform is Linux, install LibAIO to enable the AIO journal
+19:26:00,409 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+19:26:00,440 WARN  [jacorb.codeset] (MSC service thread 1-6) Warning - unknown codeset (Cp1252) - defaulting to ISO-8859-1
+19:26:00,502 INFO  [org.jboss.as.jacorb] (MSC service thread 1-6) JBAS016330: CORBA ORB Service started
+19:26:00,534 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\jboss-eap-6.2.4\standalone\data\messagingjournal,bindingsDirectory=C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\jboss-eap-6.2.4\standalone\data\messagingbindings,largeMessagesDirectory=C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\jboss-eap-6.2.4\standalone\data\messaginglargemessages,pagingDirectory=C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\jboss-eap-6.2.4\standalone\data\messagingpaging)
+19:26:00,534 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221006: Waiting to obtain live lock
+19:26:00,607 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221013: Using NIO Journal
+19:26:00,812 INFO  [org.jboss.as.jacorb] (MSC service thread 1-6) JBAS016328: CORBA Naming Service started
+19:26:00,861 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221034: Waiting to obtain live lock
+19:26:00,861 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221035: Live Server Obtained live lock
+19:26:01,198 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221020: Started Netty Acceptor version 3.6.7.Final-redhat-1-3c0a3ac 127.0.0.1:6756 for CORE protocol
+19:26:01,213 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221020: Started Netty Acceptor version 3.6.7.Final-redhat-1-3c0a3ac 127.0.0.1:6766 for CORE protocol
+19:26:01,223 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221007: Server is now live
+19:26:01,223 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221001: HornetQ Server version 2.3.14.Final (2.3.14.1 (Branch 2.3.eap6_2), 123) [83934fff-9de1-11e5-8104-afbebfd2a217] 
+19:26:01,288 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 62) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+19:26:01,293 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 63) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+19:26:01,473 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) JBAS010406: Registered connection factory java:/JmsXA
+19:26:01,808 INFO  [org.hornetq.ra] (MSC service thread 1-1) HornetQ resource adaptor started
+19:26:01,808 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-1) IJ020002: Deployed: file://RaActivatorhornetq-ra
+19:26:01,813 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+19:26:02,169 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:11301/management
+19:26:02,169 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:11301
+19:26:02,169 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.2.4.GA (AS 7.3.4.Final-redhat-1) started in 12770ms - Started 192 of 249 services (87 services are lazy, passive or on-demand)
+19:26:11,184 INFO  [org.jboss.as.repository] (management-handler-thread - 3) JBAS014900: Content added at location C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\jboss-eap-6.2.4\standalone\data\content\a2\74f99e2f7a8d8e8f5861ceb2bf598277103507\content
+19:26:11,249 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "requestresponse-rest-service-war-1.0.1-SNAPSHOT.war" (runtime-name: "requestresponse-rest-service-war-1.0.1-SNAPSHOT.war")
+19:26:14,049 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_cs.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,049 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_de_DE.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,049 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_es.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,049 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_fr.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,049 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_hu.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,065 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_it.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,065 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_ja_JP.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,065 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_ko_KR.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,065 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_pl.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,065 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_pt_BR.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,065 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_ru.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,065 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_zh_CN.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,065 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_zh_TW.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,065 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_cs.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,065 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_de_DE.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,065 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_es.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,065 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_fr.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,065 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_hu.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,065 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_it.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,065 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_ja_JP.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,081 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_ko_KR.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,081 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_pl.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,081 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_pt_BR.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,081 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_ru.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,081 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_zh_CN.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,081 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_zh_TW.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:26:14,174 WARN  [org.jboss.as.ejb3] (MSC service thread 1-4) JBAS014218: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - com.maximus.black.lab.service.ReqResService is an interface, hence won't be considered as a session bean
+19:26:14,608 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011401: Read persistence.xml for employeedata
+19:26:15,044 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016002: Processing weld deployment requestresponse-rest-service-war-1.0.1-SNAPSHOT.war
+19:26:15,076 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named ReqResServiceImpl in deployment unit deployment "requestresponse-rest-service-war-1.0.1-SNAPSHOT.war" are as follows:
+
+	java:global/requestresponse-rest-service-war-1.0.1-SNAPSHOT/ReqResServiceImpl!com.maximus.black.lab.service.ReqResService
+	java:app/requestresponse-rest-service-war-1.0.1-SNAPSHOT/ReqResServiceImpl!com.maximus.black.lab.service.ReqResService
+	java:module/ReqResServiceImpl!com.maximus.black.lab.service.ReqResService
+	java:jboss/exported/requestresponse-rest-service-war-1.0.1-SNAPSHOT/ReqResServiceImpl!com.maximus.black.lab.service.ReqResService
+	java:global/requestresponse-rest-service-war-1.0.1-SNAPSHOT/ReqResServiceImpl!com.maximus.black.lab.service.ReqResServiceLocal
+	java:app/requestresponse-rest-service-war-1.0.1-SNAPSHOT/ReqResServiceImpl!com.maximus.black.lab.service.ReqResServiceLocal
+	java:module/ReqResServiceImpl!com.maximus.black.lab.service.ReqResServiceLocal
+
+19:26:15,585 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) JBAS010403: Deploying JDBC-compliant driver class org.apache.derby.jdbc.AutoloadedDriver (version 10.10)
+19:26:15,601 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) JBAS010403: Deploying JDBC-compliant driver class org.apache.derby.jdbc.ClientDriver (version 10.10)
+19:26:15,601 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016005: Starting Services for CDI deployment: requestresponse-rest-service-war-1.0.1-SNAPSHOT.war
+19:26:15,744 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900 1.1.17 (redhat)
+19:26:15,829 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) JBAS016008: Starting weld service for deployment requestresponse-rest-service-war-1.0.1-SNAPSHOT.war
+19:26:15,832 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 16) JBAS011402: Starting Persistence Unit Service 'requestresponse-rest-service-war-1.0.1-SNAPSHOT.war#employeedata'
+19:26:16,162 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 16) HCANN000001: Hibernate Commons Annotations {4.0.1.Final-redhat-2}
+19:26:16,179 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 16) HHH000412: Hibernate Core {4.2.7.SP5-redhat-1}
+19:26:16,184 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 16) HHH000206: hibernate.properties not found
+19:26:16,189 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 16) HHH000021: Bytecode provider name : javassist
+19:26:16,227 INFO  [org.hibernate.ejb.Ejb3Configuration] (ServerService Thread Pool -- 16) HHH000204: Processing PersistenceUnitInfo [
+	name: employeedata
+	...]
+19:26:16,360 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (ServerService Thread Pool -- 16) HHH000402: Using Hibernate built-in connection pool (not for production use!)
+19:26:16,360 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (ServerService Thread Pool -- 16) HHH000115: Hibernate connection pool size: 20
+19:26:16,360 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (ServerService Thread Pool -- 16) HHH000006: Autocommit mode: true
+19:26:16,360 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (ServerService Thread Pool -- 16) HHH000401: using driver [org.apache.derby.jdbc.EmbeddedDriver] at URL [jdbc:derby:/test;create=true]
+19:26:16,360 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (ServerService Thread Pool -- 16) HHH000046: Connection properties: {user=admin, password=****, autocommit=true, release_mode=auto}
+19:26:17,142 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 16) HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSixDialect
+19:26:17,292 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (ServerService Thread Pool -- 16) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+19:26:17,292 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 16) HHH000397: Using ASTQueryTranslatorFactory
+19:26:17,354 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 16) HV000001: Hibernate Validator 4.3.1.Final-redhat-1
+19:26:17,958 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 16) HHH000228: Running hbm2ddl schema update
+19:26:17,958 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 16) HHH000102: Fetching database metadata
+19:26:17,958 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 16) HHH000396: Updating schema
+19:26:18,129 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 16) HHH000261: Table found: .ADMIN.EMPLOYEEDATA
+19:26:18,129 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 16) HHH000037: Columns: [id, department, name]
+19:26:18,129 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 16) HHH000108: Foreign keys: []
+19:26:18,129 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 16) HHH000126: Indexes: [sql151207184001450]
+19:26:18,129 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 16) HHH000232: Schema update complete
+19:26:18,129 WARN  [org.hibernate.internal.SessionFactoryImpl] (ServerService Thread Pool -- 16) HHH000008: JTASessionContext being used with JDBCTransactionFactory; auto-flush will not operate correctly with getCurrentSession()
+19:26:18,602 INFO  [org.jboss.web] (ServerService Thread Pool -- 14) JBAS018210: Register web context: /serviceprovider
+19:26:18,728 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 14) Initializing Mojarra 2.1.28-jbossorg-2  for context '/serviceprovider'
+19:26:21,811 INFO  [org.jboss.as.server] (management-handler-thread - 3) JBAS018559: Deployed "requestresponse-rest-service-war-1.0.1-SNAPSHOT.war" (runtime-name : "requestresponse-rest-service-war-1.0.1-SNAPSHOT.war")
+Running com.maximus.black.lab.presentation.server.ReqResponseIntegrationTest
+19:26:28,385 INFO  [org.jboss.resteasy.cdi.CdiInjectorFactory] (http-/127.0.0.1:9391-1) Found BeanManager at java:comp/BeanManager
+19:26:28,643 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (http-/127.0.0.1:9391-1) Deploying javax.ws.rs.core.Application: class com.maximus.black.lab.presentation.server.JAXRSActivator
+19:26:28,978 INFO  [org.jboss.ejb.client] (http-/127.0.0.1:9391-1) JBoss EJB Client version 1.0.25.Final-redhat-1
+19:26:29,098 INFO  [stdout] (http-/127.0.0.1:9391-1) Employee Data : James
+
+19:26:29,098 INFO  [stdout] (http-/127.0.0.1:9391-1) Employee Data : Dave
+
+19:26:29,198 INFO  [com.maximus.black.lab.ejb.bean.ReqResServiceImpl] (http-/127.0.0.1:9391-1) Persist Employees in the database ==========================================
+19:26:29,198 INFO  [com.maximus.black.lab.ejb.bean.ReqResServiceImpl] (http-/127.0.0.1:9391-1) Size of persistent Employees before calling persist ========================================== 2
+19:26:29,200 INFO  [com.maximus.black.lab.businesslogic.EmployeeDAO] (http-/127.0.0.1:9391-1) ================= EmployeeDAO.createEmployees ===================
+19:26:29,200 INFO  [org.hibernate.cfg.Configuration] (http-/127.0.0.1:9391-1) HHH000043: Configuring from resource: /hibernate.cfg.xml
+19:26:29,203 INFO  [org.hibernate.cfg.Configuration] (http-/127.0.0.1:9391-1) HHH000040: Configuration resource: /hibernate.cfg.xml
+19:26:29,243 INFO  [org.hibernate.cfg.Configuration] (http-/127.0.0.1:9391-1) HHH000041: Configured SessionFactory: null
+19:26:29,250 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000402: Using Hibernate built-in connection pool (not for production use!)
+19:26:29,253 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000115: Hibernate connection pool size: 20
+19:26:29,253 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000006: Autocommit mode: false
+19:26:29,253 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000401: using driver [org.apache.derby.jdbc.EmbeddedDriver] at URL [jdbc:derby:/test;create=true]
+19:26:29,255 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000046: Connection properties: {user=admin, password=****}
+19:26:29,270 INFO  [org.hibernate.dialect.Dialect] (http-/127.0.0.1:9391-1) HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSixDialect
+19:26:29,283 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (http-/127.0.0.1:9391-1) HHH000399: Using default transaction strategy (direct JDBC transactions)
+19:26:29,283 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (http-/127.0.0.1:9391-1) HHH000397: Using ASTQueryTranslatorFactory
+19:26:29,298 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-/127.0.0.1:9391-1) HHH000228: Running hbm2ddl schema update
+19:26:29,298 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-/127.0.0.1:9391-1) HHH000102: Fetching database metadata
+19:26:29,298 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-/127.0.0.1:9391-1) HHH000396: Updating schema
+19:26:29,315 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-/127.0.0.1:9391-1) HHH000261: Table found: .ADMIN.EMPLOYEEDATA
+19:26:29,315 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-/127.0.0.1:9391-1) HHH000037: Columns: [id, department, name]
+19:26:29,318 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-/127.0.0.1:9391-1) HHH000108: Foreign keys: []
+19:26:29,318 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-/127.0.0.1:9391-1) HHH000126: Indexes: [sql151207184001450]
+19:26:29,318 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-/127.0.0.1:9391-1) HHH000232: Schema update complete
+19:26:29,428 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000402: Using Hibernate built-in connection pool (not for production use!)
+19:26:29,428 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000115: Hibernate connection pool size: 20
+19:26:29,428 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000006: Autocommit mode: true
+19:26:29,430 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000401: using driver [org.apache.derby.jdbc.EmbeddedDriver] at URL [jdbc:derby:/test;create=true]
+19:26:29,430 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000046: Connection properties: {user=admin, password=****, autocommit=true, release_mode=auto}
+19:26:29,443 INFO  [org.hibernate.dialect.Dialect] (http-/127.0.0.1:9391-1) HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSixDialect
+19:26:29,450 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (http-/127.0.0.1:9391-1) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+19:26:29,453 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (http-/127.0.0.1:9391-1) HHH000397: Using ASTQueryTranslatorFactory
+19:26:29,465 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-/127.0.0.1:9391-1) HHH000228: Running hbm2ddl schema update
+19:26:29,468 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-/127.0.0.1:9391-1) HHH000102: Fetching database metadata
+19:26:29,468 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-/127.0.0.1:9391-1) HHH000396: Updating schema
+19:26:29,483 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-/127.0.0.1:9391-1) HHH000261: Table found: .ADMIN.EMPLOYEEDATA
+19:26:29,483 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-/127.0.0.1:9391-1) HHH000037: Columns: [id, department, name]
+19:26:29,485 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-/127.0.0.1:9391-1) HHH000108: Foreign keys: []
+19:26:29,485 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-/127.0.0.1:9391-1) HHH000126: Indexes: [sql151207184001450]
+19:26:29,485 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-/127.0.0.1:9391-1) HHH000232: Schema update complete
+19:26:29,945 INFO  [com.maximus.black.lab.businesslogic.EmployeeDAO] (http-/127.0.0.1:9391-1) ================= EmployeeDAO.createEmployees - Persisting Entities =================== James|1|Accounting 
+19:26:29,973 INFO  [com.maximus.black.lab.businesslogic.EmployeeDAO] (http-/127.0.0.1:9391-1) ================= EmployeeDAO.createEmployees - Persisting Entities =================== Dave|2|Auditing 
+19:26:30,275 INFO  [com.maximus.black.lab.businesslogic.EmployeeDAO] (http-/127.0.0.1:9391-2) ================= EmployeeDAO.getAllEmployees ===================
+19:26:30,308 INFO  [com.maximus.black.lab.businesslogic.EmployeeDAO] (http-/127.0.0.1:9391-2) ================= EmployeeDAO.getAllEmployees- Executing get from Employee ===================
+19:26:30,368 INFO  [com.maximus.black.lab.businesslogic.EmployeeDAO] (http-/127.0.0.1:9391-2) ===================== EmployeeDAO.getAllEmployees- Result after query : 2
+19:26:30,370 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-2) HHH000030: Cleaning up connection pool [jdbc:derby:/test;create=true]
+19:26:30,373 INFO  [com.maximus.black.lab.ejb.bean.ReqResServiceImpl] (http-/127.0.0.1:9391-2) Retreived Employee ================== James|1|Accounting
+19:26:30,373 INFO  [com.maximus.black.lab.ejb.bean.ReqResServiceImpl] (http-/127.0.0.1:9391-2) Retreived Employee ================== Dave|2|Auditing
+19:26:30,548 INFO  [org.jboss.web] (ServerService Thread Pool -- 14) JBAS018224: Unregister web context: /serviceprovider
+19:26:30,558 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 65) JBAS011403: Stopping Persistence Unit Service 'requestresponse-rest-service-war-1.0.1-SNAPSHOT.war#employeedata'
+19:26:30,560 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016009: Stopping weld service for deployment requestresponse-rest-service-war-1.0.1-SNAPSHOT.war
+19:26:30,560 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (ServerService Thread Pool -- 65) HHH000030: Cleaning up connection pool [jdbc:derby:/test;create=true]
+19:26:30,718 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Stopped deployment requestresponse-rest-service-war-1.0.1-SNAPSHOT.war (runtime-name: requestresponse-rest-service-war-1.0.1-SNAPSHOT.war) in 180ms
+19:26:30,749 INFO  [org.jboss.as.repository] (management-handler-thread - 4) JBAS014901: Content removed from location C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\jboss-eap-6.2.4\standalone\data\content\a2\74f99e2f7a8d8e8f5861ceb2bf598277103507\content
+19:26:30,749 INFO  [org.jboss.as.server] (management-handler-thread - 4) JBAS018558: Undeployed "requestresponse-rest-service-war-1.0.1-SNAPSHOT.war" (runtime-name: "requestresponse-rest-service-war-1.0.1-SNAPSHOT.war")
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.346 sec - in com.maximus.black.lab.presentation.server.ReqResponseIntegrationTest
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.2:jar (default-jar) @ requestresponse-rest-service-integration ---
+[INFO] Building jar: C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\requestresponse-rest-service-integration-1.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ requestresponse-rest-service-integration ---
+[INFO] Installing C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\requestresponse-rest-service-integration-1.0.1-SNAPSHOT.jar to C:\Users\ekampar\.m2\repository\com\maximus\black\lab\presentation\server\requestresponse-rest-service-integration\1.0.1-SNAPSHOT\requestresponse-rest-service-integration-1.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\pom.xml to C:\Users\ekampar\.m2\repository\com\maximus\black\lab\presentation\server\requestresponse-rest-service-integration\1.0.1-SNAPSHOT\requestresponse-rest-service-integration-1.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] requestresponse-rest-service ...................... SUCCESS [0.745s]
+[INFO] requestresponse-rest-service-jar .................. SUCCESS [2.518s]
+[INFO] requestresponse-rest-service-war .................. SUCCESS [4.731s]
+[INFO] requestresponse-rest-service-integration .......... SUCCESS [1:10.571s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1:19.015s
+[INFO] Finished at: Tue Dec 08 19:26:31 GMT 2015
+[INFO] Final Memory: 36M/296M
+[INFO] ------------------------------------------------------------------------
+Apache Maven 3.0.5 (r01de14724cdef164cd33c7c8c2fe155faf9602da; 2013-02-19 13:51:28+0000)
+Maven home: c:\Tools\apache-maven-3.0.5-bin\apache-maven-3.0.5
+Java version: 1.7.0_75, vendor: Oracle Corporation
+Java home: c:\Program Files\Java\jdk1.7.0_75\jre
+Default locale: en_IE, platform encoding: Cp1252
+OS name: "windows 7", version: "6.1", arch: "amd64", family: "windows"
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective settings
+[WARNING] expected START_TAG or END_TAG not TEXT (position: TEXT seen ...   <mirror>\r\n      This sends everything else to /public\r\n      <i... @17:9)  @ C:\Users\ekampar\.m2\settings.xml, line 17, column 9
+[WARNING] 
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] requestresponse-rest-service
+[INFO] requestresponse-rest-service-jar
+[INFO] requestresponse-rest-service-war
+[INFO] requestresponse-rest-service-integration
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building requestresponse-rest-service 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ requestresponse-rest-service ---
+[INFO] Installing c:\Users\ekampar\requresservice\requestresponse-rest-service\pom.xml to C:\Users\ekampar\.m2\repository\com\maximus\black\lab\presentation\server\requestresponse-rest-service\1.0.1-SNAPSHOT\requestresponse-rest-service-1.0.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building requestresponse-rest-service-jar 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ requestresponse-rest-service-jar ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ requestresponse-rest-service-jar ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ requestresponse-rest-service-jar ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ requestresponse-rest-service-jar ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ requestresponse-rest-service-jar ---
+[INFO] Surefire report directory: C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-jar\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.2:jar (default-jar) @ requestresponse-rest-service-jar ---
+[INFO] Building jar: C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-jar\target\requestresponse-rest-service-jar-1.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ requestresponse-rest-service-jar ---
+[INFO] Installing C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-jar\target\requestresponse-rest-service-jar-1.0.1-SNAPSHOT.jar to C:\Users\ekampar\.m2\repository\com\maximus\black\lab\presentation\server\requestresponse-rest-service-jar\1.0.1-SNAPSHOT\requestresponse-rest-service-jar-1.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-jar\pom.xml to C:\Users\ekampar\.m2\repository\com\maximus\black\lab\presentation\server\requestresponse-rest-service-jar\1.0.1-SNAPSHOT\requestresponse-rest-service-jar-1.0.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building requestresponse-rest-service-war 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ requestresponse-rest-service-war ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ requestresponse-rest-service-war ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-war\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ requestresponse-rest-service-war ---
+[debug] execute contextualize
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ requestresponse-rest-service-war ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ requestresponse-rest-service-war ---
+[INFO] Surefire report directory: C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-war\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-war-plugin:2.6:war (default-war) @ requestresponse-rest-service-war ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [requestresponse-rest-service-war] in [C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-war\target\requestresponse-rest-service-1.0.1-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-war\src\main\webapp]
+[INFO] Webapp assembled in [297 msecs]
+[INFO] Building war: C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-war\target\requestresponse-rest-service-war-1.0.1-SNAPSHOT.war
+[INFO] Packaging classes
+[INFO] Building jar: C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-war\target\requestresponse-rest-service-war-1.0.1-SNAPSHOT-classes.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ requestresponse-rest-service-war ---
+[INFO] Installing C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-war\target\requestresponse-rest-service-war-1.0.1-SNAPSHOT.war to C:\Users\ekampar\.m2\repository\com\maximus\black\lab\presentation\server\requestresponse-rest-service-war\1.0.1-SNAPSHOT\requestresponse-rest-service-war-1.0.1-SNAPSHOT.war
+[INFO] Installing C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-war\pom.xml to C:\Users\ekampar\.m2\repository\com\maximus\black\lab\presentation\server\requestresponse-rest-service-war\1.0.1-SNAPSHOT\requestresponse-rest-service-war-1.0.1-SNAPSHOT.pom
+[INFO] Installing C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-war\target\requestresponse-rest-service-war-1.0.1-SNAPSHOT-classes.jar to C:\Users\ekampar\.m2\repository\com\maximus\black\lab\presentation\server\requestresponse-rest-service-war\1.0.1-SNAPSHOT\requestresponse-rest-service-war-1.0.1-SNAPSHOT-classes.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building requestresponse-rest-service-integration 1.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (prepare) @ requestresponse-rest-service-integration ---
+[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+     [echo] prepare phase
+    [unzip] Expanding: C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\src\test\resources\jboss-as-dist-6.2.4.zip into C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ requestresponse-rest-service-integration ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ requestresponse-rest-service-integration ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ requestresponse-rest-service-integration ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources-1) @ requestresponse-rest-service-integration ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ requestresponse-rest-service-integration ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ requestresponse-rest-service-integration ---
+[INFO] Surefire report directory: C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\surefire-reports
+[INFO] parallel='none', perCoreThreadCount=true, threadCount=1, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Listening for transport dt_socket at address: 8787
+19:50:55,180 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final-redhat-1
+19:50:56,074 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final
+19:50:56,324 INFO  [org.jboss.as] (MSC service thread 1-4) JBAS015899: JBoss EAP 6.2.4.GA (AS 7.3.4.Final-redhat-1) starting
+19:51:00,506 INFO  [org.xnio] (MSC service thread 1-2) XNIO Version 3.0.10.GA-redhat-1
+19:51:00,522 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+19:51:00,522 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.0.10.GA-redhat-1
+19:51:00,572 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 3.2.19.GA-redhat-1
+19:51:00,645 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) JBAS010280: Activating Infinispan subsystem.
+19:51:00,645 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 34) JBAS016200: Activating ConfigAdmin Subsystem
+19:51:00,676 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 55) JBAS013171: Activating Security Subsystem
+19:51:00,676 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 50) JBAS011906: Activating OSGi Subsystem
+19:51:00,691 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 49) JBAS011800: Activating Naming Subsystem
+19:51:00,691 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) JBAS015537: Activating WebServices Extension
+19:51:00,707 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 39) JBAS016300: Activating JacORB Subsystem
+19:51:00,969 INFO  [org.jboss.as.security] (MSC service thread 1-4) JBAS013170: Current PicketBox version=4.0.19.SP8-redhat-1
+19:51:01,097 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-8) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.23.1.Final-redhat-1)
+19:51:01,140 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+19:51:01,186 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 59) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+19:51:01,296 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) JBAS015400: Bound mail session [java:jboss/mail/Default]
+19:51:01,296 INFO  [org.jboss.jaxr] (MSC service thread 1-8) JBAS014000: Started JAXR subsystem, binding JAXR connection factory into JNDI as: java:jboss/jaxr/ConnectionFactory
+19:51:02,789 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 32) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+19:51:03,065 INFO  [org.apache.coyote.http11] (MSC service thread 1-7) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/127.0.0.1:9391
+19:51:03,083 INFO  [org.apache.coyote.http11] (MSC service thread 1-7) JBWEB003000: Coyote HTTP/1.1 starting on: http-/127.0.0.1:9391
+19:51:03,445 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.2.4.Final-redhat-1
+19:51:03,679 WARN  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011600: AIO wasn't located on this platform, it will fall back to using pure Java NIO. If your platform is Linux, install LibAIO to enable the AIO journal
+19:51:03,750 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+19:51:03,828 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\jboss-eap-6.2.4\standalone\data\messagingjournal,bindingsDirectory=C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\jboss-eap-6.2.4\standalone\data\messagingbindings,largeMessagesDirectory=C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\jboss-eap-6.2.4\standalone\data\messaginglargemessages,pagingDirectory=C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\jboss-eap-6.2.4\standalone\data\messagingpaging)
+19:51:03,891 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221006: Waiting to obtain live lock
+19:51:03,938 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221013: Using NIO Journal
+19:51:04,143 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221034: Waiting to obtain live lock
+19:51:04,143 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221035: Live Server Obtained live lock
+19:51:04,284 WARN  [jacorb.codeset] (MSC service thread 1-4) Warning - unknown codeset (Cp1252) - defaulting to ISO-8859-1
+19:51:04,331 INFO  [org.jboss.as.jacorb] (MSC service thread 1-4) JBAS016330: CORBA ORB Service started
+19:51:04,442 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221020: Started Netty Acceptor version 3.6.7.Final-redhat-1-3c0a3ac 127.0.0.1:6766 for CORE protocol
+19:51:04,442 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\jboss-eap-6.2.4\standalone\deployments
+19:51:04,458 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) JBAS017100: Listening on 127.0.0.1:11310
+19:51:04,458 INFO  [org.jboss.as.remoting] (MSC service thread 1-8) JBAS017100: Listening on 127.0.0.1:5758
+19:51:04,458 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221020: Started Netty Acceptor version 3.6.7.Final-redhat-1-3c0a3ac 127.0.0.1:6756 for CORE protocol
+19:51:04,458 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221007: Server is now live
+19:51:04,458 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 62) HQ221001: HornetQ Server version 2.3.14.Final (2.3.14.1 (Branch 2.3.eap6_2), 123) [039bc631-9de5-11e5-b3e1-bf08b45dd14b] 
+19:51:04,530 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 62) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+19:51:04,545 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 63) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+19:51:04,561 INFO  [org.jboss.as.jacorb] (MSC service thread 1-3) JBAS016328: CORBA Naming Service started
+19:51:04,680 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) JBAS010406: Registered connection factory java:/JmsXA
+19:51:04,847 INFO  [org.hornetq.ra] (MSC service thread 1-1) HornetQ resource adaptor started
+19:51:04,847 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-1) IJ020002: Deployed: file://RaActivatorhornetq-ra
+19:51:04,847 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-4) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+19:51:05,190 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:11301/management
+19:51:05,190 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:11301
+19:51:05,190 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.2.4.GA (AS 7.3.4.Final-redhat-1) started in 11130ms - Started 192 of 249 services (87 services are lazy, passive or on-demand)
+19:51:13,121 INFO  [org.jboss.as.repository] (management-handler-thread - 2) JBAS014900: Content added at location C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\jboss-eap-6.2.4\standalone\data\content\d0\0a31e762983ce6a0c75344215d5f111cd79a86\content
+19:51:13,152 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "requestresponse-rest-service-war-1.0.1-SNAPSHOT.war" (runtime-name: "requestresponse-rest-service-war-1.0.1-SNAPSHOT.war")
+19:51:15,855 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_cs.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,857 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_de_DE.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,857 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_es.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,860 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_fr.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,860 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_hu.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,862 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_it.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,872 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_ja_JP.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,872 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_ko_KR.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,880 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_pl.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,882 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_pt_BR.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,882 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_ru.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,882 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_zh_CN.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,885 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_zh_TW.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derby-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,887 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_cs.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,887 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_de_DE.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,890 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_es.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,890 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_fr.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,890 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_hu.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,892 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_it.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,892 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_ja_JP.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,895 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_ko_KR.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,895 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_pl.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,895 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_pt_BR.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,897 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_ru.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,905 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_zh_CN.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:15,907 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_zh_TW.jar in /C:/Users/ekampar/requresservice/requestresponse-rest-service/requestresponse-rest-service-integration/content/requestresponse-rest-service-war-1.0.1-SNAPSHOT.war/WEB-INF/lib/derbyclient-10.10.1.1.jar  does not point to a valid jar for a Class-Path reference.
+19:51:16,018 WARN  [org.jboss.as.ejb3] (MSC service thread 1-8) JBAS014218: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - com.maximus.black.lab.service.ReqResService is an interface, hence won't be considered as a session bean
+19:51:16,498 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) JBAS011401: Read persistence.xml for employeedata
+19:51:17,014 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment requestresponse-rest-service-war-1.0.1-SNAPSHOT.war
+19:51:17,061 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named ReqResServiceImpl in deployment unit deployment "requestresponse-rest-service-war-1.0.1-SNAPSHOT.war" are as follows:
+
+	java:global/requestresponse-rest-service-war-1.0.1-SNAPSHOT/ReqResServiceImpl!com.maximus.black.lab.service.ReqResServiceLocal
+	java:app/requestresponse-rest-service-war-1.0.1-SNAPSHOT/ReqResServiceImpl!com.maximus.black.lab.service.ReqResServiceLocal
+	java:module/ReqResServiceImpl!com.maximus.black.lab.service.ReqResServiceLocal
+	java:global/requestresponse-rest-service-war-1.0.1-SNAPSHOT/ReqResServiceImpl!com.maximus.black.lab.service.ReqResService
+	java:app/requestresponse-rest-service-war-1.0.1-SNAPSHOT/ReqResServiceImpl!com.maximus.black.lab.service.ReqResService
+	java:module/ReqResServiceImpl!com.maximus.black.lab.service.ReqResService
+	java:jboss/exported/requestresponse-rest-service-war-1.0.1-SNAPSHOT/ReqResServiceImpl!com.maximus.black.lab.service.ReqResService
+
+19:51:17,644 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010403: Deploying JDBC-compliant driver class org.apache.derby.jdbc.AutoloadedDriver (version 10.10)
+19:51:17,659 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010403: Deploying JDBC-compliant driver class org.apache.derby.jdbc.ClientDriver (version 10.10)
+19:51:17,659 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016005: Starting Services for CDI deployment: requestresponse-rest-service-war-1.0.1-SNAPSHOT.war
+19:51:17,768 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900 1.1.17 (redhat)
+19:51:17,879 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 26) JBAS011402: Starting Persistence Unit Service 'requestresponse-rest-service-war-1.0.1-SNAPSHOT.war#employeedata'
+19:51:17,894 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016008: Starting weld service for deployment requestresponse-rest-service-war-1.0.1-SNAPSHOT.war
+19:51:18,147 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 26) HCANN000001: Hibernate Commons Annotations {4.0.1.Final-redhat-2}
+19:51:18,147 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 26) HHH000412: Hibernate Core {4.2.7.SP5-redhat-1}
+19:51:18,147 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 26) HHH000206: hibernate.properties not found
+19:51:18,163 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 26) HHH000021: Bytecode provider name : javassist
+19:51:18,179 INFO  [org.hibernate.ejb.Ejb3Configuration] (ServerService Thread Pool -- 26) HHH000204: Processing PersistenceUnitInfo [
+	name: employeedata
+	...]
+19:51:18,348 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (ServerService Thread Pool -- 26) HHH000402: Using Hibernate built-in connection pool (not for production use!)
+19:51:18,348 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (ServerService Thread Pool -- 26) HHH000115: Hibernate connection pool size: 20
+19:51:18,348 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (ServerService Thread Pool -- 26) HHH000006: Autocommit mode: true
+19:51:18,348 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (ServerService Thread Pool -- 26) HHH000401: using driver [org.apache.derby.jdbc.EmbeddedDriver] at URL [jdbc:derby:/test;create=true]
+19:51:18,348 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (ServerService Thread Pool -- 26) HHH000046: Connection properties: {user=admin, password=****, autocommit=true, release_mode=auto}
+19:51:19,252 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 26) HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSixDialect
+19:51:19,401 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (ServerService Thread Pool -- 26) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+19:51:19,417 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 26) HHH000397: Using ASTQueryTranslatorFactory
+19:51:19,479 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 26) HV000001: Hibernate Validator 4.3.1.Final-redhat-1
+19:51:20,135 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 26) HHH000228: Running hbm2ddl schema update
+19:51:20,135 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 26) HHH000102: Fetching database metadata
+19:51:20,135 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 26) HHH000396: Updating schema
+19:51:20,330 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 26) HHH000261: Table found: .ADMIN.EMPLOYEEDATA
+19:51:20,330 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 26) HHH000037: Columns: [id, department, name]
+19:51:20,330 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 26) HHH000108: Foreign keys: []
+19:51:20,330 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 26) HHH000126: Indexes: [sql151207184001450]
+19:51:20,330 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 26) HHH000232: Schema update complete
+19:51:20,330 WARN  [org.hibernate.internal.SessionFactoryImpl] (ServerService Thread Pool -- 26) HHH000008: JTASessionContext being used with JDBCTransactionFactory; auto-flush will not operate correctly with getCurrentSession()
+19:51:20,914 INFO  [org.jboss.web] (ServerService Thread Pool -- 22) JBAS018210: Register web context: /serviceprovider
+19:51:21,046 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 22) Initializing Mojarra 2.1.28-jbossorg-2  for context '/serviceprovider'
+19:51:24,873 INFO  [org.jboss.as.server] (management-handler-thread - 2) JBAS018559: Deployed "requestresponse-rest-service-war-1.0.1-SNAPSHOT.war" (runtime-name : "requestresponse-rest-service-war-1.0.1-SNAPSHOT.war")
+Running com.maximus.black.lab.presentation.server.ReqResponseIntegrationTest
+19:51:35,981 INFO  [org.jboss.resteasy.cdi.CdiInjectorFactory] (http-/127.0.0.1:9391-1) Found BeanManager at java:comp/BeanManager
+19:51:36,717 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (http-/127.0.0.1:9391-1) Deploying javax.ws.rs.core.Application: class com.maximus.black.lab.presentation.server.JAXRSActivator
+19:51:37,319 INFO  [org.jboss.ejb.client] (http-/127.0.0.1:9391-1) JBoss EJB Client version 1.0.25.Final-redhat-1
+19:51:37,527 INFO  [stdout] (http-/127.0.0.1:9391-1) Employee Data : James
+
+19:51:37,542 INFO  [stdout] (http-/127.0.0.1:9391-1) Employee Data : Dave
+
+19:51:37,714 INFO  [com.maximus.black.lab.ejb.bean.ReqResServiceImpl] (http-/127.0.0.1:9391-1) Persist Employees in the database ==========================================
+19:51:37,714 INFO  [com.maximus.black.lab.ejb.bean.ReqResServiceImpl] (http-/127.0.0.1:9391-1) Size of persistent Employees before calling persist ========================================== 2
+19:51:37,714 INFO  [com.maximus.black.lab.businesslogic.EmployeeDAO] (http-/127.0.0.1:9391-1) ================= EmployeeDAO.createEmployees ===================
+19:51:37,729 INFO  [org.hibernate.cfg.Configuration] (http-/127.0.0.1:9391-1) HHH000043: Configuring from resource: /hibernate.cfg.xml
+19:51:37,729 INFO  [org.hibernate.cfg.Configuration] (http-/127.0.0.1:9391-1) HHH000040: Configuration resource: /hibernate.cfg.xml
+19:51:37,839 INFO  [org.hibernate.cfg.Configuration] (http-/127.0.0.1:9391-1) HHH000041: Configured SessionFactory: null
+19:51:37,839 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000402: Using Hibernate built-in connection pool (not for production use!)
+19:51:37,854 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000115: Hibernate connection pool size: 20
+19:51:37,854 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000006: Autocommit mode: false
+19:51:37,854 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000401: using driver [org.apache.derby.jdbc.EmbeddedDriver] at URL [jdbc:derby:/test;create=true]
+19:51:37,854 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000046: Connection properties: {user=admin, password=****}
+19:51:37,870 INFO  [org.hibernate.dialect.Dialect] (http-/127.0.0.1:9391-1) HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSixDialect
+19:51:37,885 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (http-/127.0.0.1:9391-1) HHH000399: Using default transaction strategy (direct JDBC transactions)
+19:51:37,885 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (http-/127.0.0.1:9391-1) HHH000397: Using ASTQueryTranslatorFactory
+19:51:37,901 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-/127.0.0.1:9391-1) HHH000228: Running hbm2ddl schema update
+19:51:37,901 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-/127.0.0.1:9391-1) HHH000102: Fetching database metadata
+19:51:37,901 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-/127.0.0.1:9391-1) HHH000396: Updating schema
+19:51:37,917 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-/127.0.0.1:9391-1) HHH000261: Table found: .ADMIN.EMPLOYEEDATA
+19:51:37,917 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-/127.0.0.1:9391-1) HHH000037: Columns: [id, department, name]
+19:51:37,948 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-/127.0.0.1:9391-1) HHH000108: Foreign keys: []
+19:51:37,948 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-/127.0.0.1:9391-1) HHH000126: Indexes: [sql151207184001450]
+19:51:37,948 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-/127.0.0.1:9391-1) HHH000232: Schema update complete
+19:51:38,088 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000402: Using Hibernate built-in connection pool (not for production use!)
+19:51:38,088 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000115: Hibernate connection pool size: 20
+19:51:38,088 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000006: Autocommit mode: true
+19:51:38,088 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000401: using driver [org.apache.derby.jdbc.EmbeddedDriver] at URL [jdbc:derby:/test;create=true]
+19:51:38,088 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-1) HHH000046: Connection properties: {user=admin, password=****, autocommit=true, release_mode=auto}
+19:51:38,104 INFO  [org.hibernate.dialect.Dialect] (http-/127.0.0.1:9391-1) HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSixDialect
+19:51:38,119 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (http-/127.0.0.1:9391-1) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+19:51:38,119 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (http-/127.0.0.1:9391-1) HHH000397: Using ASTQueryTranslatorFactory
+19:51:38,135 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-/127.0.0.1:9391-1) HHH000228: Running hbm2ddl schema update
+19:51:38,135 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-/127.0.0.1:9391-1) HHH000102: Fetching database metadata
+19:51:38,135 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-/127.0.0.1:9391-1) HHH000396: Updating schema
+19:51:38,135 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-/127.0.0.1:9391-1) HHH000261: Table found: .ADMIN.EMPLOYEEDATA
+19:51:38,135 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-/127.0.0.1:9391-1) HHH000037: Columns: [id, department, name]
+19:51:38,135 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-/127.0.0.1:9391-1) HHH000108: Foreign keys: []
+19:51:38,135 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (http-/127.0.0.1:9391-1) HHH000126: Indexes: [sql151207184001450]
+19:51:38,135 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (http-/127.0.0.1:9391-1) HHH000232: Schema update complete
+19:51:39,414 INFO  [com.maximus.black.lab.businesslogic.EmployeeDAO] (http-/127.0.0.1:9391-1) ================= EmployeeDAO.createEmployees - Persisting Entities =================== James|1|Accounting 
+19:51:39,519 INFO  [com.maximus.black.lab.businesslogic.EmployeeDAO] (http-/127.0.0.1:9391-1) ================= EmployeeDAO.createEmployees - Persisting Entities =================== Dave|2|Auditing 
+19:51:39,979 INFO  [com.maximus.black.lab.businesslogic.EmployeeDAO] (http-/127.0.0.1:9391-2) ================= EmployeeDAO.getAllEmployees ===================
+19:51:40,077 INFO  [com.maximus.black.lab.businesslogic.EmployeeDAO] (http-/127.0.0.1:9391-2) ================= EmployeeDAO.getAllEmployees- Executing get from Employee ===================
+19:51:40,119 INFO  [com.maximus.black.lab.businesslogic.EmployeeDAO] (http-/127.0.0.1:9391-2) ===================== EmployeeDAO.getAllEmployees- Result after query : 2
+19:51:40,139 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (http-/127.0.0.1:9391-2) HHH000030: Cleaning up connection pool [jdbc:derby:/test;create=true]
+19:51:40,142 INFO  [com.maximus.black.lab.ejb.bean.ReqResServiceImpl] (http-/127.0.0.1:9391-2) Retreived Employee ================== James|1|Accounting
+19:51:40,142 INFO  [com.maximus.black.lab.ejb.bean.ReqResServiceImpl] (http-/127.0.0.1:9391-2) Retreived Employee ================== Dave|2|Auditing
+19:51:40,402 INFO  [org.jboss.web] (ServerService Thread Pool -- 22) JBAS018224: Unregister web context: /serviceprovider
+19:51:40,424 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 66) JBAS011403: Stopping Persistence Unit Service 'requestresponse-rest-service-war-1.0.1-SNAPSHOT.war#employeedata'
+19:51:40,429 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016009: Stopping weld service for deployment requestresponse-rest-service-war-1.0.1-SNAPSHOT.war
+19:51:40,429 INFO  [org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (ServerService Thread Pool -- 66) HHH000030: Cleaning up connection pool [jdbc:derby:/test;create=true]
+19:51:40,687 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015877: Stopped deployment requestresponse-rest-service-war-1.0.1-SNAPSHOT.war (runtime-name: requestresponse-rest-service-war-1.0.1-SNAPSHOT.war) in 310ms
+19:51:40,788 INFO  [org.jboss.as.repository] (management-handler-thread - 3) JBAS014901: Content removed from location C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\jboss-eap-6.2.4\standalone\data\content\d0\0a31e762983ce6a0c75344215d5f111cd79a86\content
+19:51:40,788 INFO  [org.jboss.as.server] (management-handler-thread - 3) JBAS018558: Undeployed "requestresponse-rest-service-war-1.0.1-SNAPSHOT.war" (runtime-name: "requestresponse-rest-service-war-1.0.1-SNAPSHOT.war")
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.921 sec - in com.maximus.black.lab.presentation.server.ReqResponseIntegrationTest
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.2:jar (default-jar) @ requestresponse-rest-service-integration ---
+[INFO] Building jar: C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\requestresponse-rest-service-integration-1.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ requestresponse-rest-service-integration ---
+[INFO] Installing C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\target\requestresponse-rest-service-integration-1.0.1-SNAPSHOT.jar to C:\Users\ekampar\.m2\repository\com\maximus\black\lab\presentation\server\requestresponse-rest-service-integration\1.0.1-SNAPSHOT\requestresponse-rest-service-integration-1.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\ekampar\requresservice\requestresponse-rest-service\requestresponse-rest-service-integration\pom.xml to C:\Users\ekampar\.m2\repository\com\maximus\black\lab\presentation\server\requestresponse-rest-service-integration\1.0.1-SNAPSHOT\requestresponse-rest-service-integration-1.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] requestresponse-rest-service ...................... SUCCESS [0.671s]
+[INFO] requestresponse-rest-service-jar .................. SUCCESS [2.563s]
+[INFO] requestresponse-rest-service-war .................. SUCCESS [4.504s]
+[INFO] requestresponse-rest-service-integration .......... SUCCESS [1:17.872s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1:26.013s
+[INFO] Finished at: Tue Dec 08 19:51:41 GMT 2015
+[INFO] Final Memory: 37M/295M
+[INFO] ------------------------------------------------------------------------
